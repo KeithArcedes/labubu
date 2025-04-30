@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labubu Collectibles</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Labubu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-section d-flex align-items-center text-center text-dark"
+    >
+      <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to Labubu Collectibles</h1>
+        <p class="">
+          Discover the world of art toys with personality and passion.
+        </p>
+        <a href="#features" class="btn btn-light mt-3">Explore Features</a>
+      </div>
+    </section>
+
+    <!-- Product Features -->
+    <section class="features-section text-white text-center">
+      <div class="container py-5">
+        <h2 class="mb-4">Product Features</h2>
+        <div class="row">
+          <!-- Hand-Painted Card -->
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#handPaintedModal"
+              style="cursor: pointer"
+            >
+              <div class="card-body ">
+                <i class="fas fa-palette fa-3x mb-3"></i>
+                <h5 class="card-title">Hand-Painted</h5>
+                <p class="card-text">
+                  Each Labubu is crafted with care and attention to detail.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Limited Editions Card -->
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#limitedEditionModal"
+              style="cursor: pointer"
+            >
+              <div class="card-body">
+                <i class="fas fa-box-open fa-3x mb-3"></i>
+                <h5 class="card-title">Limited Editions</h5>
+                <p class="card-text">
+                  Get your hands on exclusive, limited-edition pieces.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Collector's Favorite Card -->
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#collectorsFavoriteModal"
+              style="cursor: pointer"
+            >
+              <div class="card-body">
+                <i class="fas fa-heart fa-3x mb-3"></i>
+                <h5 class="card-title">Collector's Favorite</h5>
+                <p class="card-text">
+                  A must-have for fans of designer toys and art figures.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section text-dark text-center ">
+      <div class="container py-5">
+        <h2 class="text-center mb-4">What Our Customers Say</h2>
+        <div class="carousel-container position-relative overflow-hidden">
+          <div class="d-flex carousel-track" id="testimonialTrack">
+            <!-- Testimonial cards -->
+            <div class="testimonial-card">
+              <div class="card bg-dark text-white h-100 p-3">
+                <p class="card-text">
+                  "Labubu is the cutest thing I've ever owned! The details are
+                  amazing."
+                </p>
+                <h5 class="mt-2">- Jane D.</h5>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="card bg-dark text-white h-100 p-3">
+                <p class="card-text">
+                  "A great addition to my collection. Can't wait for the next
+                  release!"
+                </p>
+                <h5 class="mt-2">- Mark T.</h5>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="card bg-dark text-white h-100 p-3">
+                <p class="card-text">
+                  "Perfect gift for art toy lovers. Labubu always puts a smile
+                  on my face!"
+                </p>
+                <h5 class="mt-2">- Emma W.</h5>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="card bg-dark text-white h-100 p-3">
+                <p class="card-text">
+                  "Every Labubu I get feels like a one-of-a-kind piece. I love
+                  the craftsmanship."
+                </p>
+                <h5 class="mt-2">- Alex R.</h5>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="card bg-dark text-white h-100 p-3">
+                <p class="card-text">
+                  "Top-notch customer service and fast delivery. Highly
+                  recommended!"
+                </p>
+                <h5 class="mt-2">- Lisa M.</h5>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="card bg-dark text-white h-100 p-3">
+                <p class="card-text">
+                  "It’s not just a toy. It’s art. I proudly display my Labubu on
+                  my shelf."
+                </p>
+                <h5 class="mt-2">- Daniel K.</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation Buttons -->
+          <button class="carousel-nav prev bg-transparent" id="prevBtn">&#10094;</button>
+          <button class="carousel-nav next bg-transparent" id="nextBtn">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section text-white text-center">
+      <div class="container">
+        <h2 class="text-center mb-4">Pricing</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header bg-primary text-white">
+                Standard Labubu
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">$29.99</h3>
+                <p class="card-text">
+                  A classic piece perfect for new collectors.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0">
+            <div class="card text-center">
+              <div class="card-header bg-success text-white">
+                Limited Edition
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">$49.99</h3>
+                <p class="card-text">
+                  Rare designs for the dedicated collector.
+                </p>
+                <a href="#" class="btn btn-outline-success">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-section text-white text-center">
+      <div class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card bg-transparent border-light custom-card">
+              <div class="card-body">
+                <form>
+                  <div class="mb-3 text-start">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required />
+                  </div>
+                  <div class="mb-3 text-start">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required />
+                  </div>
+                  <div class="mb-3 text-start">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <p>Connect with us:</p>
+        <a href="#" class="text-white me-3"
+          ><i class="fab fa-facebook fa-lg"></i
+        ></a>
+        <a href="#" class="text-white me-3"
+          ><i class="fab fa-instagram fa-lg"></i
+        ></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+        <p class="mt-3 mb-0">
+          &copy; 2025 Labubu Collectibles. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Hand-Painted Modal -->
+    <div
+      class="modal fade"
+      id="handPaintedModal"
+      tabindex="-1"
+      aria-labelledby="handPaintedLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="handPaintedLabel">Hand-Painted</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Every Labubu figure is hand-painted by skilled artisans, ensuring
+              each piece has its own unique touch. From the intricate details of
+              the eyes to the carefully blended colors, this craftsmanship sets
+              Labubu apart as a premium collectible.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Limited Edition Modal -->
+    <div
+      class="modal fade"
+      id="limitedEditionModal"
+      tabindex="-1"
+      aria-labelledby="limitedEditionLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="limitedEditionLabel">
+              Limited Editions
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Labubu collectibles are often released in very limited quantities.
+              Once sold out, these editions become rare gems, highly sought
+              after by collectors around the world. Don't miss out on these rare
+              opportunities to own a piece of art history.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collector's Favorite Modal -->
+    <div
+      class="modal fade"
+      id="collectorsFavoriteModal"
+      tabindex="-1"
+      aria-labelledby="collectorsFavoriteLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="collectorsFavoriteLabel">
+              Collector's Favorite
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Labubu has captured the hearts of designer toy lovers and art
+              collectors alike. With its whimsical design and high-quality
+              production, it has become a staple in collections worldwide. It’s
+              more than just a toy — it’s a statement piece.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const track = document.getElementById("testimonialTrack");
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const cards = document.querySelectorAll(".testimonial-card");
+      const cardWidth = cards[0].offsetWidth + 30; // include margin/padding
+
+      let position = 0;
+
+      nextBtn.addEventListener("click", () => {
+        position += 1;
+        if (position > cards.length - 3) {
+          position = 0;
+        }
+        track.style.transform = `translateX(-${position * cardWidth}px)`;
+      });
+
+      prevBtn.addEventListener("click", () => {
+        position -= 1;
+        if (position < 0) {
+          position = cards.length - 3;
+        }
+        track.style.transform = `translateX(-${position * cardWidth}px)`;
+      });
+    </script>
+  </body>
+</html>
